@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "CXExtensions", targets: ["CXExtensions"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/cx-org/CXShim", .upToNextMinor(from: "0.4.0")),
+        .package(url: "https://github.com/MxIris-LyricsX-Project/CXShim", .branchItem("master")),
         .package(url: "https://github.com/cx-org/CXTest", .upToNextMinor(from: "0.4.0")),
     ],
     targets: [
@@ -24,11 +24,7 @@ enum CombineImplementation {
     case openCombine
     
     static var `default`: CombineImplementation {
-        #if canImport(Combine)
-        return .combine
-        #else
         return .combineX
-        #endif
     }
     
     init?(_ description: String) {

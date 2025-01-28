@@ -2,12 +2,21 @@
   "object": {
     "pins": [
       {
-        "package": "CXShim",
-        "repositoryURL": "https://github.com/cx-org/CXShim",
+        "package": "CombineX",
+        "repositoryURL": "https://github.com/cx-org/CombineX",
         "state": {
           "branch": null,
-          "revision": "82fecc246c7ca9f0ac1656b8199b7956e64d68f3",
+          "revision": "98096c6b2a51481cb6e4bae8da0a808d8cab09a1",
           "version": "0.4.0"
+        }
+      },
+      {
+        "package": "CXShim",
+        "repositoryURL": "https://github.com/MxIris-LyricsX-Project/CXShim",
+        "state": {
+          "branch": "master",
+          "revision": "c45c0b89156dcf57a50709282c2e5336bbbaf83a",
+          "version": null
         }
       },
       {
@@ -17,6 +26,15 @@
           "branch": null,
           "revision": "929ce7cbd3005bc9356ae826bb65ee2611379b17",
           "version": "0.4.0"
+        }
+      },
+      {
+        "package": "swift-atomics",
+        "repositoryURL": "https://github.com/apple/swift-atomics.git",
+        "state": {
+          "branch": null,
+          "revision": "3e95ba32cd1b4c877f6163e8eea54afc4e63bf9f",
+          "version": "0.0.3"
         }
       }
     ]
