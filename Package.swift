@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/MxIris-LyricsX-Project/CXShim", .branchItem("master")),
-        .package(url: "https://github.com/cx-org/CXTest", .upToNextMinor(from: "0.4.0")),
+        .package(url: "https://github.com/MxIris-LyricsX-Project/CXTest", .branchItem("master")),
     ],
     targets: [
         .target(name: "CXExtensions", dependencies: ["CXShim"]),
